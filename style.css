@@ -1,0 +1,39 @@
+body {
+    background: rgb(244,168,200);
+    background: -moz-linear-gradient(90deg, rgb(226, 120, 164) 0%, rrgb(19, 145, 128)100%);
+    background: -webkit-linear-gradient(90deg, rgb(238, 138, 180) 0%, rgb(24, 187, 173) 100%);
+    background: linear-gradient(90deg, rgb(184, 49, 105) 0%, rgb(35, 180, 161) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4a8c8",endColorstr="#006df6",GradientType=1);
+  }
+
+  .col{
+    background: #7a94db;
+    text-align: center;
+  }
+  .col{
+    margin: 50px;
+    height: 500px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: inset 2px 2px 5px rgba(109, 115, 192, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+  }
+
+
+
+p{
+    color: #f5eeee;
+    font-weight: 1000;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
