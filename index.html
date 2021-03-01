@@ -15,10 +15,14 @@
 </head>
 <body>
 
-    <div class="bar">
         <div class="row">
             <div class="col">
-                <h1 class = "calc">Calculator</h1>
+                <h1 class = "calc">Calculator for calculating "Qalyn Mal"</h1>
+                <p>Bride's/Groom's name:</p>
+                <input type="text" id="n1"/>
+                <p>Starting bid:</p>
+                <input type="number" id="cin"/>
+                <br>
                 <p>Bride's/Groom's education:</p>
                     <select id = "education" class = "criteria">
                         <option value = 1></option>
@@ -36,29 +40,36 @@
                     </select>
                 <p>Bride's/Groom's skills:</p>
                     <form name = "skills" class = "criteria">
-                        <input name = "option" type = "checkbox"  value = 100> Playing on dombra
-                        <input class = "ml-2" name = "option" type = "checkbox"  value = 200> Good cook
-                        <input class = "ml-2" name = "option" type = "checkbox"  value = 150> Easygoing character
-                        <input class = "ml-2" name = "option" type = "checkbox"  value = 100> Sings well   
+                        <input class = "n3" name = "skills"  type ="checkbox" value = 100> Playing on dombra
+                        <input class = "n3" name = "skills" type = "checkbox"  value = 200> Good cook
+                        <input class = "n3" name = "skills" type = "checkbox"  value = 150> Easygoing character
+                        <input class = "n3" name = "skills" type = "checkbox"  value = 100> Sings well   
                     </form>
+                    <br>
                 <p>Bride's/Groom's age:</p>
                     <form name = "age" class = "criteria">
-                        <input name = "option" type = "radio" value = 1.5> Between 18-23
-                        <input class = "ml-2" name = "option" type = "radio" value = 1.2> Between 24-47
-                        <input class = "ml-2" name = "option" type = "radio" value = 0.95> 28+
+                        <input class = "n4" name="option" type = "radio" value = 1.5> Between 18-23
+                        <input class = "n4" name = "option" type = "radio" value = 1.2> Between 24-47
+                        <input class = "n4" name = "option" type = "radio" value = 0.95> 28+
                     </form>
+                    <br>
                 <p>Bride's/Groom's reputation:</p>
                     <form name = "reputation" class = "criteria">
-                        <input name = "option" type = "checkbox" value = 0.85> Gossips about his/her parent's attitude
-                        <input class = "ml-2" name = "option" type = "checkbox" value = 0.9> Gossips about his/her character
-                        <input class = "ml-2" name = "option" type = "checkbox" value = 200> General gossips around his/her person
+                        <input class = "n5" name = "gossip" type = "checkbox" value = 0.85> Gossips about his/her parent's attitude
+                        <input class = "n5" name = "gossip" type = "checkbox" value = 0.9> Gossips about his/her character
+                        <input class = "n5" name = "gossip" type = "checkbox" value = 200> General gossips around his/her person
                     </form>
+                    <br>
+                <form>
+                    <p>Love letter:</p>
+                <textarea id="n6" rows="4" cols="50"></textarea>
+                </form>
                 <div class="calculate">
-                    <p><button class = "btn btn-primary" onclick = "calculate()">Calculate</button></p>
+                    <p><button id="submit" class = "btn">Calculate</button></p>
                 </div>
+                <p id="result"></p>
             </div>
         </div>
-    </div>
     
     
 
